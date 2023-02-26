@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Responsive Tables</title>
+  </head>
+
+  <body>
+    <section>
+      <ol class="collection collection-container">
+        <!-- The first list item is the header of the table -->
+        <li class="item item-container">
+          <div class="attribute"></div>
+          <div class="attribute" data-name="#">#</div>
+          <!-- Enclose semantically similar attributes as a div hierarchy -->
+          <div class="attribute-container part-information">
+            <div class="attribute-container part-id">
+              <div class="attribute" data-name="Engine Make">Engine Make</div>
+              <div class="attribute" data-name="Cubic Inch">Cubic Inch</div>
+              <div class="attribute" data-name="Cubic Inch">Horse Power</div>
+              <div class="attribute" data-name="Cubic Inch">Idle Type</div>
+              <div class="attribute" data-name="Cubic Inch">Comp Ratio</div>
+            </div>
+            
+            <div class="attribute-container vendor-information">
+              <div class="attribute" data-name="Complete Engine">Complete Engine</div>
+              <div class="attribute" data-name="Long Block">Long Block</div>
+              <div class="attribute" data-name="Block Assy">Block Assy</div>
+            </div>
+          </div>
+        </li>
+        <!-- The rest of the items in the list are the actual data -->
+        <li class="item item-container">
+          <div class="attribute" data-name="Select">
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div class="attribute" data-name="#">1</div>
+          <div class="attribute-container part-information">
+            <div class="attribute-container part-id">
+              <div class="attribute" data-name="Engine Make">Chevy</div>
+              <div class="attribute" data-name="Cubic Inch">350</div>
+              <div class="attribute" data-name="Horse Power">500</div>
+              <div class="attribute" data-name="Idle Type">Race</div>
+              <div class="attribute" data-name="Comp Ratio">11.0</div>
+            </div>            
+            <div class="attribute-container vendor-information">
+              <div class="attribute" data-name="Complete Engine">$8496</div>
+              <div class="attribute" data-name="Long Block">$7796</div>
+              <div class="attribute" data-name="Block Assy">$3996</div>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+  </body>
+</html>
